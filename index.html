@@ -4,25 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RedStore | Ecommerce Website Design</title>
+    <title>Hobbyt Equipment | Arm Wrestling Equipment</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <!-- Додати CSS стиль для банера -->
     <style>
+        /* Заміна фону банера на синій */
         .offer {
-            background-color: #1E3A8A; /* Синій фон */
-            color: white; /* Білий текст */
-            padding: 50px 0; /* Відступи для кращого вигляду */
+            background-color: #1E3A8A; /* Синій фон для банерів */
+            color: white;
+            padding: 50px 0;
         }
     </style>
 </head>
 
 <body>
-    
-    <div class="header">
+    <!-- HEADER -->
+    <header>
         <div class="container">
             <div class="navbar">
                 <!-- Логотип -->
@@ -43,23 +41,27 @@
                 <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
+        </div>
+    </header>
+
+    <!-- HERO / Головний банер -->
+    <section class="hero-banner">
+        <div class="container">
             <div class="row">
                 <div class="col-2">
-                    <!-- Заміна фото на банері та збільшення на 40 пікселів -->
                     <h1>Дайте вашому тренуванню <br> новий стиль!</h1>
                     <p>Успіх — це не завжди велич, це послідовність. Постійна <br> важка праця приносить успіх. Велич прийде.</p>
                     <a href="" class="btn">Досліджуйте зараз &#8594;</a>
                 </div>
                 <div class="col-2">
-                    <img src="https://i.ibb.co/rgc4w07/Chat-GPT-Image-6-2026-14-49-32-2.png" alt="New Banner Image" width="580px"> <!-- Фото збільшене на 40 пікселів -->
+                    <img src="https://i.ibb.co/rgc4w07/Chat-GPT-Image-6-2026-14-49-32-2.png" alt="New Banner Image" width="580px">
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Рекомендовані категорії -->
-
-    <div class="categories">
+    <!-- КАТЕГОРІЇ -->
+    <section class="categories">
         <div class="small-container">
             <div class="row">
                 <div class="col-3">
@@ -73,83 +75,82 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Рекомендовані продукти -->
-
-    <div class="small-container">
-        <h2 class="title">Рекомендовані продукти</h2>
-        <div class="row">
-            <div class="col-4">
-                <a href="product_details.html"><img src="images/product-1.jpg"></a>
-                <h4>Червона футболка з принтом</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+    <!-- РЕКОМЕНДОВАНІ ПРОДУКТИ -->
+    <section class="products featured">
+        <div class="small-container">
+            <h2 class="title">Рекомендовані продукти</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product_details.html"><img src="images/product-1.jpg"></a>
+                    <h4>Червона футболка з принтом</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
                 </div>
-                <p>$50.00</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product-2.jpg">
-                <h4>Червона футболка з принтом</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                <div class="col-4">
+                    <img src="images/product-2.jpg">
+                    <h4>Червона футболка з принтом</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
                 </div>
-                <p>$50.00</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product-3.jpg">
-                <h4>Червона футболка з принтом</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                <div class="col-4">
+                    <img src="images/product-3.jpg">
+                    <h4>Червона футболка з принтом</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
                 </div>
-                <p>$50.00</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product-4.jpg">
-                <h4>Червона футболка з принтом</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                <div class="col-4">
+                    <img src="images/product-4.jpg">
+                    <h4>Червона футболка з принтом</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
                 </div>
-                <p>$50.00</p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Пропозиція -->
-    <div class="offer">
+    <!-- ПРОПОЗИЦІЯ (ОСОБЛИВА ПРОПОЗИЦІЯ) -->
+    <section class="offer">
         <div class="small-container">
             <div class="row">
                 <div class="col-2">
-                    <!-- Фото для нової пропозиції (Зміна фото на смарт браслет) -->
                     <a href="https://ibb.co/qtrrCqY"><img src="https://i.ibb.co/qtrrCqY/121.png" alt="121" border="0" width="150px"></a>
                 </div>
                 <div class="col-2">
-                    <!-- Змінений текст для пропозиції -->
                     <p>Ручка “Конус” Ultra Grip — це інноваційний аксесуар для армрестлінгу та тренувань сили хвата, розроблений для спортсменів, що прагнуть досягти максимальних результатів. Унікальна конічна форма ручки дозволяє задіяти різні м’язові групи пальців та передпліччя, імітуючи різні ситуації боротьби. Спеціальна текстурована поверхня “Ultra Grip” забезпечує надзвичайно надійне зчеплення, запобігаючи ковзанню та дозволяючи зосередитися на виконанні вправи. Ця ручка — ідеальний інструмент для розвитку сили стиснення, витривалості та стабілізації кисті.</p>
                     <a href="products.html" class="btn">Купити зараз &#8594;</a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Відгуки -->
-    <div class="testimonial">
+    <!-- ВІДГУКИ -->
+    <section class="testimonial">
         <div class="small-container">
             <div class="row">
                 <div class="col-3">
@@ -196,11 +197,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Бренди -->
-
-    <div class="brands">
+    <!-- БРЕНДИ -->
+    <section class="brands">
         <div class="small-container">
             <div class="row">
                 <div class="col-5">
@@ -220,10 +220,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Підвал -->
-    <div class="footer">
+    <!-- FOOTER -->
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="footer-col-1">
@@ -260,10 +260,9 @@
             <hr>
             <p class="copyright">Copyright 2020 - Samwit Adhikary</p>
         </div>
-    </div>
+    </footer>
 
-    <!-- javascript -->
-
+    <!-- Javascript -->
     <script>
         var MenuItems = document.getElementById("MenuItems");
         MenuItems.style.maxHeight = "0px";
